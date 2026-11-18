@@ -1,2 +1,1 @@
-def hello() -> str:
-    return "Hello from hotel-content-pipeline!"
+"""Hotel ad packs from a brief: checks, fact grounding and repair, measured against one-shot prompting."""
