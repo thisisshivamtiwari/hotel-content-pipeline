@@ -1,0 +1,232 @@
+# Review of every judge flag (18 Nov 2026), each one read against briefs/hotels.yaml by the builder (Claude Code), not by the judge.
+# real = the claim is unsupported, or the offer is missing a significant condition; false-flag = the judge was too strict.
+# Also read in full: all 8 sonnet-5.5 "full" packs of sample 0 (the judge flagged no Sonnet pack); no unsupported claim found.
+- key: haiku-4.5|bunk|1|oneshot|google_rsa.headlines[1]|Book 4, pay for 3
+  verdict: real
+- key: haiku-4.5|bunk|1|rules|google_rsa.headlines[1]|Book 4, pay for 3
+  verdict: real
+- key: haiku-4.5|bunk|1|oneshot|google_rsa.descriptions[1]|Central Quillhaven
+  verdict: real
+- key: haiku-4.5|bunk|1|rules|google_rsa.descriptions[1]|Central Quillhaven
+  verdict: real
+- key: haiku-4.5|bunk|0|oneshot|instagram.caption|Every bed has a curtain and reading light.
+  verdict: real
+- key: haiku-4.5|bunk|0|rules|instagram.caption|Every bed has a curtain and reading light.
+  verdict: real
+- key: haiku-4.5|bunk|1|full|reel.scenes[0].on_screen_text|Every bed has curtains
+  verdict: real
+- key: haiku-4.5|bunk|0|rules|google_rsa.descriptions[1]|Free lockers
+  verdict: real
+- key: haiku-4.5|bunk|1|oneshot|meta_ad.primary_text|twin £64
+  verdict: real
+- key: haiku-4.5|bunk|1|rules|meta_ad.primary_text|twin £64
+  verdict: real
+- key: haiku-4.5|bunk|1|full|meta_ad.primary_text|twin £64
+  verdict: real
+- key: haiku-4.5|bunk|1|full|reel.voiceover|£64 twin
+  verdict: real
+- key: haiku-4.5|ferrow|1|oneshot|reel.voiceover|Dine on our terrace.
+  verdict: real
+- key: haiku-4.5|ferrow|1|rules|reel.voiceover|Dine on our terrace.
+  verdict: real
+- key: haiku-4.5|ferrow|0|oneshot|meta_ad.primary_text|Save £40 Mon-Thu.
+  verdict: real
+- key: haiku-4.5|ferrow|0|oneshot|google_rsa.descriptions[0]|Save £40 Mon-Thu. Book by 28 Feb.
+  verdict: real
+- key: haiku-4.5|ferrow|0|oneshot|reel.voiceover|Save £40 Mon-Thu. Book by 28 February.
+  verdict: real
+- key: haiku-4.5|ferrow|0|oneshot|image_post.subline|Save £40 Monday to Thursday.
+  verdict: real
+- key: haiku-4.5|ferrow|1|oneshot|google_rsa.headlines[4]|Save £40 This Feb
+  verdict: real
+- key: haiku-4.5|ferrow|1|full|google_rsa.headlines[4]|Save £40 This Feb
+  verdict: real
+- key: haiku-4.5|ferrow|0|oneshot|google_rsa.headlines[4]|Save £40 This Winter
+  verdict: real
+- key: haiku-4.5|ferrow|0|rules|google_rsa.headlines[4]|Save £40 This Winter
+  verdict: real
+- key: haiku-4.5|ferrow|1|oneshot|meta_ad.primary_text|£40 off Mon-Thu (min 1 night, book by 28 Feb).
+  verdict: real
+- key: haiku-4.5|ferrow|1|oneshot|google_rsa.descriptions[0]|£40 off Mon-Thu spa breaks (1+ nights). Book by 28 Feb 2027.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|oneshot|meta_ad.primary_text|Complimentary English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|rules|meta_ad.primary_text|Complimentary English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|oneshot|instagram.caption|Complimentary glass of English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|rules|instagram.caption|Complimentary glass of English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|oneshot|google_rsa.descriptions[1]|Complimentary wine with Feb DBB bookings.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|rules|google_rsa.descriptions[1]|Complimentary wine with Feb DBB bookings.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|full|google_rsa.descriptions[1]|Complimentary wine with Feb DBB bookings.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|full|reel.voiceover|Dinner, bed and breakfast from £289 per night for two with complimentary English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|full|instagram.caption|Dinner, bed and breakfast from £289 per night for two with complimentary glass of English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|full|meta_ad.primary_text|February dinner, bed and breakfast from £289 with complimentary English sparkling wine.
+  verdict: real
+- key: haiku-4.5|hollowmere|1|oneshot|reel.voiceover|complimentary English sparkling wine
+  verdict: real
+- key: haiku-4.5|hollowmere|1|rules|reel.voiceover|complimentary English sparkling wine
+  verdict: real
+- key: haiku-4.5|kiln|0|oneshot|google_rsa.headlines[3]|18 Desks in a Converted Kiln
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|google_rsa.headlines[3]|18 Desks in a Converted Kiln
+  verdict: real
+- key: haiku-4.5|kiln|0|full|google_rsa.headlines[3]|18 Desks in a Converted Kiln
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|image_post.subline|18 rooms, 27-inch desks.
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|reel.scenes[1].on_screen_text|27-inch desk, 900 Mbps
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|meta_ad.primary_text|27-inch desks
+  verdict: real
+- key: haiku-4.5|kiln|1|full|instagram.caption|7 nights from £599
+  verdict: false-flag
+  note: '''from £599'' on a fixed 7-night price misleads nobody'
+- key: haiku-4.5|kiln|0|oneshot|image_post.subline|7 nights from £599 (room only, Sun arrivals).
+  verdict: false-flag
+  note: '''subject to availability'' is a generic qualifier, not a significant condition'
+- key: haiku-4.5|kiln|0|rules|image_post.subline|7 nights from £599 (room only, Sun arrivals).
+  verdict: false-flag
+  note: '''subject to availability'' is a generic qualifier, not a significant condition'
+- key: haiku-4.5|kiln|0|rules|reel.voiceover|All rooms have 27-inch desks
+  verdict: real
+- key: haiku-4.5|kiln|0|full|reel.voiceover|All rooms have 27-inch desks
+  verdict: real
+- key: haiku-4.5|kiln|1|full|reel.voiceover|Seven nights from £599
+  verdict: false-flag
+  note: 'same: ''from £599'' on a fixed price'
+- key: haiku-4.5|kiln|1|oneshot|reel.voiceover|Seven nights from £599. Room only, Sunday arrivals.
+  verdict: false-flag
+  note: 'same: only ''subject to availability'' missing'
+- key: haiku-4.5|kiln|1|rules|reel.voiceover|Seven nights from £599. Room only, Sunday arrivals.
+  verdict: false-flag
+  note: 'same: only ''subject to availability'' missing'
+- key: haiku-4.5|kiln|0|oneshot|google_rsa.descriptions[2]|Studio rooms
+  verdict: real
+- key: haiku-4.5|kiln|0|full|google_rsa.descriptions[2]|Studio rooms
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|google_rsa.descriptions[2]|Studio rooms with 27-inch desks
+  verdict: real
+- key: haiku-4.5|kiln|0|oneshot|google_rsa.headlines[4]|Week Stays from £599
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|google_rsa.headlines[4]|Week Stays from £599
+  verdict: real
+- key: haiku-4.5|kiln|0|full|google_rsa.headlines[4]|Week Stays from £599
+  verdict: real
+- key: haiku-4.5|kiln|0|oneshot|reel.scenes[3].on_screen_text|Work + Wellness
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|reel.scenes[3].on_screen_text|Work + Wellness
+  verdict: real
+- key: haiku-4.5|kiln|0|rules|instagram.caption|Work from your 27-inch desk
+  verdict: real
+- key: haiku-4.5|kiln|0|oneshot|google_rsa.descriptions[0]|£119/night
+  verdict: real
+- key: haiku-4.5|kiln|0|full|google_rsa.descriptions[0]|£119/night
+  verdict: real
+- key: haiku-4.5|lantern|1|full|google_rsa.headlines[4]|20% Off January Stays
+  verdict: real
+- key: haiku-4.5|lantern|1|oneshot|google_rsa.headlines[4]|20% Off January Stays
+  verdict: real
+- key: haiku-4.5|lantern|0|rules|google_rsa.headlines[3]|20% Off Stays of 2+ Nights
+  verdict: real
+- key: haiku-4.5|lantern|1|full|meta_ad.primary_text|20% off 2+ nights Sun-Thu through Jan 31.
+  verdict: real
+- key: haiku-4.5|lantern|0|oneshot|google_rsa.descriptions[1]|20% off stays of 2+ nights, Sun-Thu.
+  verdict: real
+- key: haiku-4.5|lantern|0|rules|google_rsa.descriptions[1]|20% off stays of 2+ nights, Sun-Thu.
+  verdict: real
+- key: haiku-4.5|lantern|0|oneshot|reel.scenes[3].on_screen_text|Quick self check-in anytime
+  verdict: real
+- key: haiku-4.5|lantern|0|rules|reel.scenes[3].on_screen_text|Quick self check-in anytime
+  verdict: real
+- key: haiku-4.5|lantern|1|rules|image_post.subline|Save 20% on 2+ nights Sun-Thu through January 31.
+  verdict: real
+- key: haiku-4.5|lantern|1|full|image_post.subline|Save 20% on 2+ nights Sun-Thu through January 31.
+  verdict: real
+- key: haiku-4.5|lantern|1|oneshot|google_rsa.descriptions[2]|self check-in 24/7
+  verdict: real
+- key: haiku-4.5|lantern|1|rules|google_rsa.descriptions[2]|self check-in 24/7
+  verdict: real
+- key: haiku-4.5|lantern|1|oneshot|meta_ad.primary_text|through Jan 31
+  verdict: real
+- key: haiku-4.5|lantern|1|oneshot|image_post.subline|through January 31
+  verdict: real
+- key: haiku-4.5|runway|0|full|google_rsa.descriptions[2]|24-hour facilities at Stellbridge Airport
+  verdict: real
+- key: haiku-4.5|runway|1|oneshot|google_rsa.descriptions[2]|24-hour shuttle, gym & restaurant.
+  verdict: real
+- key: haiku-4.5|runway|1|rules|google_rsa.descriptions[2]|24-hour shuttle, gym & restaurant.
+  verdict: real
+- key: haiku-4.5|runway|1|full|google_rsa.descriptions[2]|24-hour shuttle, gym & restaurant.
+  verdict: real
+- key: haiku-4.5|runway|1|oneshot|image_post.subline|8 days parking included. Park-and-fly from £159 near Stellbridge.
+  verdict: real
+- key: haiku-4.5|runway|1|oneshot|reel.voiceover|Park-and-fly from £159 with 8 days parking.
+  verdict: real
+- key: haiku-4.5|runway|0|oneshot|google_rsa.headlines[3]|Secure Parking Included
+  verdict: real
+- key: haiku-4.5|runway|0|rules|google_rsa.headlines[3]|Secure Parking Included
+  verdict: real
+- key: haiku-4.5|runway|0|full|google_rsa.headlines[3]|Secure Parking Included
+  verdict: real
+- key: haiku-4.5|runway|0|full|reel.scenes[0].on_screen_text|Secure your spot
+  verdict: false-flag
+  note: '''Secure your spot'' is a call to action (book now), not a claim that parking is secure'
+- key: haiku-4.5|runway|1|oneshot|instagram.caption|park for 8 days, catch your flight with our 24-hour shuttle every 15 minutes. From £159.
+  verdict: real
+- key: haiku-4.5|saltmarsh|0|oneshot|image_post.subline|Mon-Thu arrivals, Nov-Feb.
+  verdict: false-flag
+  note: only 'subject to availability' missing
+- key: haiku-4.5|saltmarsh|0|rules|image_post.subline|Mon-Thu arrivals, Nov-Feb. From £95/night. Breakfast included.
+  verdict: false-flag
+  note: only 'subject to availability' missing
+- key: haiku-4.5|saltmarsh|1|oneshot|instagram.caption|Nine cosy rooms overlooking the Wrenmouth coast.
+  verdict: real
+- key: haiku-4.5|saltmarsh|1|rules|instagram.caption|Nine cosy rooms overlooking the Wrenmouth coast.
+  verdict: real
+- key: haiku-4.5|saltmarsh|1|oneshot|reel.voiceover|The coastal path starts outside.
+  verdict: real
+- key: haiku-4.5|saltmarsh|1|rules|reel.voiceover|The coastal path starts outside.
+  verdict: real
+- key: haiku-4.5|saltmarsh|0|full|google_rsa.headlines[2]|Third Night Free Mon-Thu
+  verdict: real
+- key: haiku-4.5|saltmarsh|1|oneshot|image_post.headline|Third Night Free Mon-Thu to Feb
+  verdict: false-flag
+  note: '''to Feb'' is accurate from November; the offer is already running'
+- key: haiku-4.5|saltmarsh|1|rules|image_post.headline|Third Night Free Mon-Thu to Feb
+  verdict: false-flag
+  note: '''to Feb'' is accurate from November; the offer is already running'
+- key: haiku-4.5|saltmarsh|1|full|google_rsa.headlines[2]|Third Night Free This Winter
+  verdict: real
+- key: haiku-4.5|tidewater|1|oneshot|google_rsa.headlines[1]|Family Holidays on the Beach
+  verdict: real
+- key: haiku-4.5|tidewater|1|rules|google_rsa.headlines[1]|Family Holidays on the Beach
+  verdict: real
+- key: haiku-4.5|tidewater|1|full|google_rsa.headlines[1]|Family Holidays on the Beach
+  verdict: real
+- key: haiku-4.5|tidewater|0|oneshot|image_post.subline|Kids eat free (under 12, kids' menu, with adult)
+  verdict: real
+- key: haiku-4.5|tidewater|0|full|image_post.subline|Kids free (under 12, kids' menu, paying adult)
+  verdict: real
+- key: haiku-4.5|tidewater|1|oneshot|google_rsa.descriptions[2]|Limited spots.
+  verdict: real
+- key: haiku-4.5|tidewater|1|rules|google_rsa.descriptions[2]|Limited spots.
+  verdict: real
+- key: haiku-4.5|tidewater|0|rules|image_post.subline|Pool, beach. £189
+  verdict: real
+- key: haiku-4.5|tidewater|1|rules|image_post.subline|Suites £189.
+  verdict: real
+- key: haiku-4.5|tidewater|1|oneshot|image_post.subline|Suites £189.
+  verdict: real
+- key: 'haiku-4.5|tidewater|1|oneshot|meta_ad.primary_text|Under 12s: free kids menu meals Easter 2027.'
+  verdict: real
+- key: haiku-4.5|tidewater|0|oneshot|image_post.subline|£189
+  verdict: real
+- key: haiku-4.5|tidewater|0|full|image_post.subline|£189
+  verdict: real

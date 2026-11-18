@@ -1,0 +1,49 @@
+{
+ "source": [
+  "sonnet-5.5",
+  "full",
+  0
+ ],
+ "renders": [
+  {
+   "hotel": "bunk",
+   "image_s": 0.053,
+   "reel_s": 0.755
+  },
+  {
+   "hotel": "ferrow",
+   "image_s": 0.011,
+   "reel_s": 0.535
+  },
+  {
+   "hotel": "hollowmere",
+   "image_s": 0.012,
+   "reel_s": 0.504
+  },
+  {
+   "hotel": "kiln",
+   "image_s": 0.011,
+   "reel_s": 0.518
+  },
+  {
+   "hotel": "lantern",
+   "image_s": 0.01,
+   "reel_s": 0.514
+  },
+  {
+   "hotel": "runway",
+   "image_s": 0.01,
+   "reel_s": 0.499
+  },
+  {
+   "hotel": "saltmarsh",
+   "image_s": 0.011,
+   "reel_s": 0.48
+  },
+  {
+   "hotel": "tidewater",
+   "image_s": 0.011,
+   "reel_s": 0.517
+  }
+ ]
+}
