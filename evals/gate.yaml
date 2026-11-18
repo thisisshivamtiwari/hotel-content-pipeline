@@ -1,0 +1,11 @@
+# CI gate rules, applied to results/summary.json after the replay reproduces it.
+# A pipeline arm must never be worse than the one-shot draft it starts from, and the recommended setup
+# (Sonnet 5.5 + rule checks and repair) must ship no unflagged problem pack.
+rules:
+  - {arm: rules, metric: clean_packs, min_vs: oneshot}
+  - {arm: full, metric: clean_packs, min_vs: oneshot}
+  - {arm: rules, metric: unsupported_claims, max_vs: oneshot}
+  - {arm: full, metric: unsupported_claims, max_vs: oneshot}
+  - {arm: rules, metric: rule_issues, max_vs: oneshot}
+  - {arm: full, metric: rule_issues, max_vs: oneshot}
+  - {model: sonnet-5.5, arm: rules, metric: shipped_dirty, max: 0}

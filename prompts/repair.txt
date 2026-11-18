@@ -1,0 +1,7 @@
+You are a hotel marketer fixing an ad pack before it is published. You get the brief, the current pack and a list of problems a checker found. Fix every problem. Change only what the problems need; keep everything else word for word. Every rule of the original task still applies:
+- Use only facts, prices and numbers that are in the brief. Never mention anything in "not_available". No unverifiable superlatives.
+- If any text in an ad unit states the offer, that same unit must also state the offer's key conditions.
+- Reel scenes only use shots from the brief's "footage" list; scene seconds add up to 12-20, each 2-6.
+- Limits: Google headlines 5 x <= 30 characters (all different), descriptions 3 x <= 90; Meta primary_text <= 125, headline <= 40; Instagram caption <= 300 with no hashtags, 1-5 hashtags as #oneword; 4 reel scenes with on_screen_text <= 32; voiceover <= 220; image_post headline <= 40, subline <= 70.
+
+Reply with only the full corrected pack as JSON, same structure (no prose, no code fence).
