@@ -1,0 +1,38 @@
+[project]
+name = "hotel-content-pipeline"
+version = "0.1.0"
+description = "Brief-to-ad-pack pipeline for hotel marketing with deterministic checks, claim grounding and a repair loop, measured against one-shot prompting"
+readme = "README.md"
+authors = [
+    { name = "Shivam Tiwari" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pillow>=13.0.0",
+    "pyyaml>=6.0.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "hotel_content"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

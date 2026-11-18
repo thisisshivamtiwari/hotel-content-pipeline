@@ -1,0 +1,190 @@
+# Eight MADE-UP hotels in made-up towns. Not real hotels, guests or prices.
+# `trigger`: words that mean a text is stating the offer; `required`: groups of alternatives, one of each group must
+# then appear in the same ad unit (the offer's significant conditions).
+# Each brief is everything a marketer would be told: facts, prices, one offer with its conditions, what the hotel
+# does NOT have, and the footage the video team already holds (reel scenes may only use these shots).
+hotels:
+  - id: lantern
+    name: The Lantern Rooms
+    town: Pellingford
+    kind: 24-room city-centre budget hotel
+    audience: weekend city-break couples aged 25-40
+    goal: fill Sunday to Thursday nights in January
+    tone: warm, plain, a little playful
+    brand: {primary: "#1f3a5f", accent: "#f2b134"}
+    facts:
+      - 24 rooms, all with blackout blinds and a rainfall shower
+      - 4 minutes' walk from Pellingford Central station
+      - self check-in kiosk, staffed reception 7am to 11pm
+      - rooftop terrace open April to September
+      - free Wi-Fi in every room
+    prices: {room_from: "£79 a night", breakfast: "£11 per person"}
+    offer:
+      text: 20% off
+      conditions: ["stays of 2 nights or more", "Sunday to Thursday", "book by 31 January 2027"]
+      trigger: ["20%"]
+      required: [["2 nights", "two nights", "2+ nights", "2-night", "two-night"], ["sunday to thursday", "sun-thu", "sunday-thursday", "sun to thu", "sundays to thursdays"]]
+    not_available: [parking, pool, spa, gym, restaurant, pet-friendly, room service]
+    footage: [exterior_dusk, room_wide, shower_detail, station_walk, kiosk_checkin, terrace_summer]
+
+  - id: saltmarsh
+    name: Saltmarsh Quay Guesthouse
+    town: Wrenmouth
+    kind: 9-room seaside guesthouse
+    audience: walkers and couples who want a quiet coastal break
+    goal: sell midweek winter breaks
+    tone: calm, honest, unhurried
+    brand: {primary: "#2d5d62", accent: "#e9dcc4"}
+    facts:
+      - 9 rooms, 6 with a sea view
+      - cooked breakfast included in every rate
+      - the coast path starts 200 metres from the door
+      - drying room for boots and coats
+      - owners live on site
+    prices: {room_from: "£95 a night including breakfast"}
+    offer:
+      text: third night free
+      conditions: ["Monday to Thursday arrivals", "November to February", "subject to availability"]
+      trigger: ["third night", "3rd night"]
+      required: [["monday to thursday", "mon-thu", "monday-thursday", "mon to thu", "mondays to thursdays"]]
+    not_available: [lift, elevator, parking, restaurant, bar, pool, spa, gym, wheelchair-accessible rooms]
+    footage: [sea_view_window, breakfast_table, coast_path, drying_room, harbour_morning, room_cosy]
+
+  - id: runway
+    name: Northgate Runway Hotel
+    town: Stellbridge Airport
+    kind: 180-room airport business hotel
+    audience: business travellers and early-flight passengers
+    goal: grow park-and-fly bookings
+    tone: efficient, reassuring
+    brand: {primary: "#222831", accent: "#00adb5"}
+    facts:
+      - 180 rooms with soundproofed windows
+      - 24-hour shuttle to the terminal every 15 minutes
+      - 24-hour gym
+      - restaurant open 5am to 11pm, grab-and-go breakfast from 4am
+      - 8 meeting rooms for up to 40 people
+    prices: {room_from: "£109 a night", park_and_fly: "£159 with 8 days' parking"}
+    offer:
+      text: 8 days' parking included
+      conditions: ["park-and-fly rate", "one car per booking", "non-refundable"]
+      trigger: ["parking included", "8 days", "eight days", "park-and-fly", "park and fly", "park & fly"]
+      required: [["non-refundable", "non refundable", "nonrefundable"]]
+    not_available: [pool, spa, sauna, pet-friendly, ev charging]
+    footage: [shuttle_bus, room_desk, gym_treadmill, breakfast_grab, meeting_room, car_park_gate]
+
+  - id: hollowmere
+    name: Hollowmere House
+    town: Marrowdale
+    kind: 32-room country-house hotel
+    audience: couples celebrating anniversaries, food lovers
+    goal: sell dinner, bed and breakfast packages for February
+    tone: elegant, understated
+    brand: {primary: "#3b2f2f", accent: "#c9a66b"}
+    facts:
+      - Georgian house on 40 acres of parkland
+      - restaurant with a 6-course tasting menu, Wednesday to Sunday
+      - 32 rooms, 12 with a four-poster bed
+      - log fires in the drawing room and library
+      - dogs welcome in 4 garden rooms
+      - free parking and 2 EV chargers
+    prices: {dbb_from: "£289 per room per night for two, dinner and breakfast"}
+    offer:
+      text: complimentary glass of English sparkling wine
+      conditions: ["dinner, bed and breakfast bookings", "February stays", "guests aged 18 and over"]
+      trigger: ["sparkling", "fizz", "glass of"]
+      required: [["dinner, bed and breakfast", "dinner, bed & breakfast", "dinner bed and breakfast", "dbb", "dinner, b&b"]]
+    not_available: [pool, spa, gym, tennis, michelin, award-winning]
+    footage: [drive_approach, four_poster, tasting_course, library_fire, parkland_walk, dog_garden_room]
+
+  - id: bunk
+    name: Bunk & Bowl Hostel
+    town: Quillhaven
+    kind: 60-bed city hostel with private rooms
+    audience: solo travellers and students aged 18-30
+    goal: fill beds over the spring student break
+    tone: casual, upbeat, no hype
+    brand: {primary: "#ff6b35", accent: "#004e89"}
+    facts:
+      - 60 beds in 4-, 6- and 8-bed dorms plus 5 private twin rooms
+      - every dorm bed has a curtain, a reading light and a USB socket
+      - shared kitchen open 24 hours
+      - free walking tour every Saturday at 10am
+      - lockers included, bring your own padlock or buy one at reception for £4
+    prices: {dorm_from: "£22 a night", private_twin_from: "£64 a night"}
+    offer:
+      text: 4 nights for the price of 3
+      conditions: ["dorm beds only", "stays between 1 and 30 April 2027"]
+      trigger: ["4 nights for", "four nights for", "price of 3", "price of three", "4 for 3", "4-for-3"]
+      required: [["dorm"], ["april"]]
+    not_available: [bar, breakfast, parking, lift, pool, gym, en-suite dorms]
+    footage: [dorm_curtains, kitchen_night, walking_tour, reception_lockers, twin_room, street_view]
+
+  - id: ferrow
+    name: Ferrow Spa Hotel
+    town: Brackenstow
+    kind: 70-room spa hotel
+    audience: friends and couples booking a spa day or spa break
+    goal: sell spa breaks for midweek dates
+    tone: soothing, confident
+    brand: {primary: "#5b7065", accent: "#f4f1de"}
+    facts:
+      - spa with 6 treatment rooms, a sauna, a steam room and an outdoor hot tub
+      - 70 rooms
+      - spa break includes one 50-minute treatment per person
+      - restaurant and terrace bar
+      - free parking
+    prices: {spa_break_from: "£199 per night for two, with breakfast"}
+    offer:
+      text: £40 off a spa break
+      conditions: ["Monday to Thursday", "minimum 1 night", "book direct by 28 February 2027"]
+      trigger: ["£40"]
+      required: [["monday to thursday", "mon-thu", "monday-thursday", "mon to thu", "mondays to thursdays"], ["book direct", "booking direct", "booked direct"]]
+    not_available: [pool, swimming pool, gym, kids club, children under 16 in the spa]
+    footage: [hot_tub_steam, treatment_room, robe_corridor, terrace_bar, room_bath, sauna_door]
+
+  - id: tidewater
+    name: Tidewater Family Resort
+    town: Isle of Fennick
+    kind: 120-room family resort
+    audience: families with children aged 3-12
+    goal: book Easter holidays early
+    tone: friendly, energetic
+    brand: {primary: "#0077b6", accent: "#ffd166"}
+    facts:
+      - indoor pool with a separate splash area for under-5s
+      - kids club for ages 4 to 11, daily 9am to 5pm in school holidays
+      - 40 family suites with bunk beds
+      - beach 300 metres away
+      - free parking
+    prices: {family_suite_from: "£189 a night for 2 adults and 2 children"}
+    offer:
+      text: kids eat free
+      conditions: ["children under 12", "from the kids' menu", "with a paying adult", "Easter holidays 2027"]
+      trigger: ["eat free", "eat for free"]
+      required: [["under 12", "under-12", "under 12s", "under-12s", "under twelve"], ["paying adult"]]
+    not_available: [spa, outdoor pool, waterslide, adults-only, all-inclusive]
+    footage: [pool_splash, kids_club_crafts, family_suite_bunks, beach_path, breakfast_buffet, sunset_lawn]
+
+  - id: kiln
+    name: The Kiln Works
+    town: Lowthorne
+    kind: 18-room design hotel in a converted pottery
+    audience: design-minded couples and remote workers
+    goal: sell week-long work-from-hotel stays
+    tone: crisp, curious
+    brand: {primary: "#1b1b1b", accent: "#d96c3d"}
+    facts:
+      - converted 1890s pottery with the original bottle kiln in the courtyard
+      - 18 rooms, each with a desk and a 27-inch monitor
+      - fibre Wi-Fi at 900 Mbps
+      - café open 8am to 4pm
+      - pottery classes on Saturdays at £35 per person
+    prices: {room_from: "£119 a night"}
+    offer:
+      text: 7 nights for £599
+      conditions: ["room only", "Sunday arrivals", "subject to availability"]
+      trigger: ["£599", "7 nights for", "seven nights for", "a week for"]
+      required: [["room only", "room-only"]]
+    not_available: [restaurant, bar, parking, gym, pool, spa, breakfast included]
+    footage: [bottle_kiln, desk_monitor, cafe_morning, pottery_class, courtyard_rain, room_window]
