@@ -104,7 +104,8 @@ What this says, on this small test:
 
 1. **The cheaper model was the expensive one.** Sonnet 5.5 at low effort wrote a pack in 23 s for $0.035. Haiku 4.5
    took 137 s and $0.10, because it used 10,000–32,000 output tokens per draft, most of them thinking, and `--effort low` did
-   not shorten that. Haiku's cheapest clean pack cost $0.81, against Sonnet's $0.037: 22 times less.
+   not shorten that. (Haiku 4.5 doesn't support the effort setting, and the CLI ignores the flag for it without a warning:
+   [anthropics/claude-code#96386](https://github.com/anthropics/claude-code/issues/96386).) Haiku's cheapest clean pack cost $0.81, against Sonnet's $0.037: 22 times less.
 2. **For Sonnet 5.5, rule checks were all it needed.** One-shot packs were clean 14 times out of 16. Both misses
    stated the offer without its conditions. The rule checks caught both and one repair fixed them: 16/16 for
    $0.003 more per pack. The LLM fact check added nothing here (it flagged one pack that the review found clean) and
